@@ -40,7 +40,6 @@ interface PostProps {
       };
     }[];
   };
-  preview: boolean;
 }
 
 export default function Post({
