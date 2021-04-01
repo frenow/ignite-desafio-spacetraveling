@@ -32,14 +32,6 @@ interface Post {
 
 interface PostProps {
   post: Post;
-  navigation: {
-    prevPost: {
-      uid: string;
-      data: {
-        title: string;
-      };
-    }[];
-  };
 }
 
 export default function Post({
